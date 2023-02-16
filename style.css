@@ -1,0 +1,231 @@
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    overflow: hidden;
+}
+
+#BIimage
+{
+  position: absolute;
+  left: -9.4vw;
+  top: -2vw;
+  z-index: -10;
+  width: 35%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+
+.boring-box
+{
+  background-color: rgb(255, 255, 255);
+  width: 0.1vw;
+  height: 100vw;
+  position: absolute;
+  left: 0vw;
+  top: 0.9vw;
+  z-index: -10;
+}
+
+
+.ItchButton {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 108vw;
+  left: 1vw;
+  padding: 0.5vw 0.5vw;
+
+  width: 10vw;
+  height: 10vw;
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-decoration: 0;
+  border: none;
+  border-radius: 0.8vw;
+  font-size: 2vw;
+  background-image: url('itch.png');
+  background-size: cover;
+}
+
+.twitter {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 108vw;
+  left: 25vw;
+  padding: 0.5vw 0.5vw;
+
+  width: 10vw;
+  height: 10vw;
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-decoration: 0;
+  border: none;
+  border-radius: 0.8vw;
+  font-size: 2vw;
+  background-image: url('twitter.png');
+  background-size: cover;
+}
+
+.github {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 108vw;
+  left: 65vw;
+  padding: 0.5vw 0.5vw;
+
+  width: 10vw;
+  height: 10vw;
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-decoration: 0;
+  border: none;
+  border-radius: 0.8vw;
+  font-size: 2vw;
+  background-image: url('github.png');
+  background-size: cover;
+}
+
+.youtube {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 108vw;
+  left: 88vw;
+  padding: 0.5vw 0.5vw;
+
+  width: 10vw;
+  height: 10vw;
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-decoration: 0;
+  border: none;
+  border-radius: 0.8vw;
+  font-size: 2vw;
+  background-image: url('youtube.png');
+  background-size: cover;
+}
+
+
+/* Caliber engine */
+
+.CaliberButton {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 28vw;
+  left: 4%;
+
+  padding: 0.5vw 1vw;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-decoration: 0;
+  border: none;
+  border-radius: 0.8vw;
+  font-size: 2vw;
+}
+
+.caliber_main-heading {
+  font-family: Arial, sans-serif;
+
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 7vw;
+    left: 3%;
+    font-size: 7vw;
+}
+.caliber_lower-heading {
+  font-family: Courier New, sans-serif;
+  color: rgb(79, 79, 79);
+  position: absolute;
+  top: 18vw;
+  left: 4%;
+  font-size: 1.35vw;
+}
+
+#caliber-image {
+  pointer-events: none;
+  user-select: none;
+  position: relative;
+  left: 60%;
+  top: 0%;
+  z-index: -10;
+  width: 55%;
+  height: auto;
+}
+.Caliber-box {
+  background-color: black;
+  width: 200vw;
+  height: 60vw;
+  position: absolute;
+  left: -10vw;
+  top: -10vw;
+  z-index: -21;
+}
+/* Caliber engine */
+
+/* chess engine */
+.chess-box{
+  background-color: rgb(255, 255, 255);
+  background-image: url(/newchesspic2.png);
+  background-size: 56% auto;
+  background-position: 0vh 15vh;
+  width: 200vw;
+  height: 55vw;
+  position: absolute;
+  left: -10vw;
+  top: 48vw;
+  z-index: -23;
+}
+.chess_main-heading {
+  font-family: Arial, sans-serif;
+
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 57vw;
+    left: 51%;
+    font-size: 7vw;
+}
+.chess_lower-heading {
+  font-family: Courier New, sans-serif;
+  color: rgb(79, 79, 79);
+  position: absolute;
+  top: 69vw;
+  left: 52%;
+  font-size: 1.35vw;
+}
+
+#chess-image {
+  pointer-events: none;
+  user-select: none;
+  position: relative;
+  left: 0%;
+  top: 0%;
+  z-index: -10;
+  width: 50%;
+  height: auto;
+}
+
+/* chess engine */
+
+
+.metacritic-box {
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+  width: 200vw;
+  height: 4vw;
+  position: absolute;
+  left: -11vw;
+  top: 102vw;
+  z-index: -18;
+  transform: rotate(0deg);
+}
+
+
+
+
+
